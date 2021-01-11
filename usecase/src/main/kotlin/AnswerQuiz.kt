@@ -1,3 +1,3 @@
 interface AnswerQuiz {
-    fun answer()
+    operator fun invoke(answer: Answer)
 }

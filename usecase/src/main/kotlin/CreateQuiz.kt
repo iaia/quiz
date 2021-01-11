@@ -1,3 +1,3 @@
 interface CreateQuiz {
-    fun create(): Quiz
+    operator fun invoke(quiz: Quiz)
 }
