@@ -10,7 +10,6 @@ version = "1.0-SNAPSHOT"
 dependencies {
     implementation(project(":common"))
     implementation(project(":entity"))
-    implementation(project(":util"))
     implementation(project(":repository"))
     testImplementation(project(":testmodule"))
 }

@@ -1,0 +1,3 @@
+interface AnswerQuiz {
+    fun answer()
+}

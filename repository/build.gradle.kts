@@ -8,7 +8,9 @@ group = "bot.iaiabot"
 version = "1.0-SNAPSHOT"
 
 dependencies {
-    testImplementation(kotlin("test-junit"))
+    implementation(project(":common"))
+    implementation(project(":entity"))
+    testImplementation(project(":testmodule"))
 }
 
 tasks.test {
