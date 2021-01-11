@@ -9,6 +9,6 @@ include(":util")
 include(":usecase")
 include(":repository")
 include(":entity")
-include(":graphql")
+include(":api")
 include(":testmodule")
 
